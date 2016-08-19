@@ -1,4 +1,4 @@
-### Shortcake Field Chosen
+=== Shortcake Field Chosen ===
 
 * Contributors: Perturbatio
 * Donate link: http://www.perturbatio.com
@@ -11,14 +11,14 @@
 
 A plugin which provides a jQuery-chosen enhanced select field for the shortcake plugin
 
-## Description
+== Description ==
 
 This is a wordpress plugin which provides a select field enhanced by the jQuery chosen library for
 use with the [Shortcake shortcode-ui](https://github.com/wp-shortcake/shortcake) plugin.
 
 Note: this has been tested against Shortcake v0.7.0-alpha 
 
-## Installation
+== Installation ==
 
 The latest source can be obtained from: https://github.com/Perturbatio/shortcake-field-chosen
 
@@ -30,21 +30,21 @@ e.g.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. The `chosen` field type will now be available to use
 
-## Usage
+== Usage ==
 
 This is a drop-in replacement for the `select` field type, it has all the same requirements, the only difference is 
 that instead of using `'type' => 'select'` you should use `'type' => 'chosen'`.
 
-## Changelog
+== Changelog ==
 
-### 1.0.3
+= 1.0.3 =
 * added README.txt for wordpress.org submission
 
-### 1.0.2
+= 1.0.2 =
 * added github link to docs
 
-### 1.0.1
+= 1.0.1 =
 * fixed issue with shortcake link in docs
 
-### 1.0
+= 1.0 =
 * Initial release
