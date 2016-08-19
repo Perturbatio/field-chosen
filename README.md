@@ -20,6 +20,8 @@ Note: this has been tested against Shortcake v0.7.0-alpha
 
 ## Installation
 
+The latest source can be obtained from: https://github.com/Perturbatio/shortcake-field-chosen
+
 This section describes how to install the plugin and get it working.
 
 e.g.
