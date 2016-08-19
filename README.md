@@ -14,7 +14,7 @@ A plugin which provides a jQuery-chosen enhanced select field for the shortcake 
 ## Description
 
 This is a wordpress plugin which provides a select field enhanced by the jQuery chosen library for
-use with the [Shortcake shortcode-ui]((https://github.com/wp-shortcake/shortcake)) plugin.
+use with the [Shortcake shortcode-ui](https://github.com/wp-shortcake/shortcake) plugin.
 
 Note: this has been tested against Shortcake v0.7.0-alpha 
 
