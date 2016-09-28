@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Shortcake Field - Chosen
  * Plugin URI:        shortcake-field-chosen
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Provides a jQuery chosen select field as an option for the Shortcake (Shortcode UI) plugin.
  * Version:           1.0.0
  * Author:            Kris Kelly
  * Author URI:        http://www.perturbatio.com
