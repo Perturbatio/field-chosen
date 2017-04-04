@@ -33,6 +33,10 @@ that instead of using `'type' => 'select'` you should use `'type' => 'chosen'`.
 
 == Changelog ==
 
+= 1.0.4 =
+* applied fix for latest version of shortcake UI
+* added chosen CSS to enqueued styles
+
 = 1.0.3 =
 * added README.txt for wordpress.org submission
 
