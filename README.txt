@@ -2,7 +2,7 @@
 
 * Contributors: Perturbatio
 * Donate link: http://www.perturbatio.com
-* Tags: comments, spam
+* Tags: Shortcake UI, jQuery Chosen
 * Requires at least: 4.5.3
 * Tested up to: 4.7.3
 * Stable tag: 1.1.0
