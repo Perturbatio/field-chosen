@@ -4,8 +4,8 @@
 * Donate link: http://www.perturbatio.com
 * Tags: comments, spam
 * Requires at least: 4.5.3
-* Tested up to: 4.6
-* Stable tag: 1.0.4
+* Tested up to: 4.7.3
+* Stable tag: 1.1.0
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,7 +34,7 @@ that instead of using `'type' => 'select'` you should use `'type' => 'chosen'`.
 ## Changelog
 
 
-### 1.0.4
+### 1.1.0
 * applied fix for latest version of shortcake UI
 * added chosen CSS to enqueued styles
 
