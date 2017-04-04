@@ -5,7 +5,7 @@
 * Tags: Shortcake UI, jQuery Chosen
 * Requires at least: 4.5.3
 * Tested up to: 4.7.3
-* Stable tag: 1.1.0
+* Stable tag: 1.1.1
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,7 +34,7 @@ that instead of using `'type' => 'select'` you should use `'type' => 'chosen'`.
 ## Changelog
 
 
-### 1.1.0
+### 1.1.1
 * applied fix for latest version of shortcake UI
 * added chosen CSS to enqueued styles
 
