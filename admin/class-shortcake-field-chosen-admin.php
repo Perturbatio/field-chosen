@@ -74,6 +74,8 @@ class Shortcake_Field_Chosen_Admin {
 		 * class.
 		 */
 
+		wp_enqueue_style($this->plugin_name, plugin_dir_url(__FILE__) . 'js/chosen_v1.6.2/chosen.min.css', [], $this->version);
+
 
 	}
 

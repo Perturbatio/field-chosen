@@ -67,7 +67,7 @@ class Shortcake_Field_Chosen {
 	public function __construct() {
 
 		$this->plugin_name = 'shortcake-field-chosen';
-		$this->version = '1.0.0';
+		$this->version = '1.0.4';
 
 		$this->load_dependencies();
 		$this->set_locale();

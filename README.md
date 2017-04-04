@@ -22,10 +22,6 @@ Note: this has been tested against Shortcake v0.7.0-alpha
 
 The latest source can be obtained from: https://github.com/Perturbatio/shortcake-field-chosen
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
 1. Upload the plugin to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. The `chosen` field type will now be available to use
