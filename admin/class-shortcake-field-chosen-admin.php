@@ -74,8 +74,6 @@ class Shortcake_Field_Chosen_Admin {
 		 * class.
 		 */
 
-		wp_enqueue_style($this->plugin_name, plugin_dir_url(__FILE__) . 'js/chosen_v1.6.2/chosen.min.css', [], $this->version);
-
 
 	}
 
@@ -97,9 +95,11 @@ class Shortcake_Field_Chosen_Admin {
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
+		wp_enqueue_script( 'es6.polyfill.promise', plugin_dir_url( __FILE__ ) . 'js/es6-promise.auto.min.js', array(  ), '4.1.0', false );
 		wp_enqueue_script( 'jquery.plugin.chosen', plugin_dir_url( __FILE__ ) . 'js/chosen_v1.6.2/chosen.jquery.min.js', array( 'jquery' ), '1.6.2', false );
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/shortcake-field-chosen-admin.js', array(
 			'jquery',
+			'es6.polyfill.promise',
 			'jquery.plugin.chosen',
 		), $this->version, false );
 

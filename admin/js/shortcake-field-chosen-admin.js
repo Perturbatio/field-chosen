@@ -4,10 +4,39 @@
 	 * enhance all elements with the .chosen-enhance class
 	 */
 	function makeChosen() {
-		$('.chosen-enhance').chosen({
-				no_results_text: 'Item not found'
-			}
-		);
+
+
+		var chosenPromise = new Promise(function(resolve, reject){
+			var timer,
+				counter = 0,
+				max = 20;
+
+			timer = setInterval(function(){
+				var selectElements = $('.chosen-enhance');
+
+				if (selectElements.length > 0){
+					clearInterval(timer);
+					resolve(selectElements)
+				}
+				counter++;
+				if (counter >= max){
+					reject('shortcake-field-chosen-admin.js - no valid selects found after max retries (' + max + ')')
+				}
+
+			}, 250);
+
+		}).then(function(selectElements){
+
+			selectElements.chosen({
+					no_results_text: 'Item not found'
+				}
+			);
+
+			selectElements.removeClass('chosen-enhance');
+
+		}).catch(function(message){
+			console.log(message);
+		});
 	}
 
 	$(document).ready(function () {
