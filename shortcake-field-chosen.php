@@ -16,7 +16,7 @@
  * Plugin Name:       Shortcake Field - Chosen
  * Plugin URI:        shortcake-field-chosen
  * Description:       Provides a jQuery chosen select field as an option for the Shortcake (Shortcode UI) plugin.
- * Version:           1.1.1
+ * Version:           1.2.0
  * Author:            Kris Kelly
  * Author URI:        http://www.perturbatio.com
  * License:           GPL-2.0+
