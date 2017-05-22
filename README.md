@@ -4,8 +4,8 @@
 * Donate link: http://www.perturbatio.com
 * Tags: Shortcake UI, jQuery Chosen
 * Requires at least: 4.5.3
-* Tested up to: 4.7.3
-* Stable tag: 1.1.1
+* Tested up to: 4.7.5
+* Stable tag: 1.2.0
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,11 @@ This is a drop-in replacement for the `select` field type, it has all the same r
 that instead of using `'type' => 'select'` you should use `'type' => 'chosen'`.
 
 ## Changelog
+
+
+### 1.2.0
+* added es6 promise polyfill
+* fix for shortcode-ui 0.7.2 and render_edit event firing before render complete
 
 
 ### 1.1.1
